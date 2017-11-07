@@ -5,8 +5,9 @@ class Results extends Component {
   render() {
     return (
       <div className="ResultField">
+         
          {this.props.resultdata.map(function(item){
-            return <ResultItem song={item.songname}/>   
+            return <ResultItem song={item}/>   
          })}
       </div>
     )

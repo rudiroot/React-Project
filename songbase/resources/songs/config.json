@@ -1,13 +1,21 @@
 {
 	"type": "Collection",
 	"properties": {
-		"songname": {
-			"name": "songname",
+		"title": {
+			"name": "title",
 			"type": "string",
 			"typeLabel": "string",
 			"required": false,
-			"id": "songname",
+			"id": "title",
 			"order": 0
+		},
+		"artistId": {
+			"name": "artistId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "artistId",
+			"order": 1
 		}
 	}
 }
