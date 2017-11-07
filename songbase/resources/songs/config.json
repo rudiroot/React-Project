@@ -1,0 +1,13 @@
+{
+	"type": "Collection",
+	"properties": {
+		"songname": {
+			"name": "songname",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "songname",
+			"order": 0
+		}
+	}
+}
